@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Created on Fri Oct 16 20:33:51 2020
-
-@author: coffm
+05-Matplotlib Homework
 """
 # Dependencies and Setup
 import matplotlib.pyplot as plt
@@ -66,9 +63,16 @@ plt.xlabel('Drug Regimen')
 plt.ylabel('Count')
 plt.title('#Mice in each Regimen')
 plt.bar(x_axis, drugCount_ls, color='g', alpha=0.5, align='center')
-
-
-
-
-
-
+# Generate a pie plot showing the distribution of female versus male mice using pandas
+gender_df = pd.DataFrame(merged_df.groupby(["Sex"]).count()).reset_index()
+gender_df=gender_df[['Sex','Mouse ID']]
+plt.figure(figsize=(10,4))
+axis = plt.subplot(121, aspect='equal')
+gender_df.plot(kind='pie', y = 'Mouse ID', ax=axis, autopct='%1.2f%%',
+              startangle=90,labels=gender_df['Sex'], legend=False)
+plt.title('% Female vs Male Mice')
+plt.ylabel('')
+# Generate a pie plot showing the distribution of female versus male mice using pyplot
+genderCount = (merged_df.groupby(['Sex'])['Age_months'].count()).tolist()
+labels = ['Females', 'Males']
+plt.pie(genderCount, autopct='%1.2f%%', startangle=90, labels=labels)

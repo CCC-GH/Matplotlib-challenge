@@ -1,7 +1,9 @@
 #  This Repository is for 05-Matplotlib Homework
 
 ## The Power of Plots
-
+## Findings
+	- Capomulin drug had a positive impact in decreasing the size of tumors
+	- Positive relationship between tumor size and weight.  As weight increased, tumor volume followed.
 ## Your tasks are to do the following:
 	- Before beginning the analysis, check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
 	- Use the cleaned data for the remaining steps.

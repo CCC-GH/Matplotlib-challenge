@@ -6,7 +6,7 @@
 ## Findings
 	- Capomulin drug had a positive impact in decreasing the size of tumors (mouse m601)
 	- Positive relationship between tumor size and weight.  As weight increased, tumor volume followed (see: scatter plot Weight vs Avg Tumor Vol)
-## 05-Matplotlib Assignment:
+## Assignment:
 	- Check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
 	- Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 	- Generate a bar plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the number of total mice for each treatment regimen throughout the course of the study.

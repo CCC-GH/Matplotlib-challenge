@@ -4,8 +4,9 @@
 	- Please see jupyter(from HW-given starter) notebook solution "pymaceuticals.ipynb"
 	- Also full scrip (tested from Spyder) avail, "matplotlib-challenge.py"
 ## Findings
-	- Capomulin drug had a positive impact in decreasing the size of tumors (mouse m601)
-	- Positive relationship between tumor size and weight.  As weight increased, tumor volume followed (see: scatter plot Weight vs Avg Tumor Vol)
+	1. Capomulin had a positive impact in decreasing the size of tumors (ex. mouse m601 line chart)
+	2. Positive relationship between tumor size and weight. As weight increased, tumor volume followed (see: scatter plot Mouse Weight and Avg Tumor Vol)
+	3. Number of female and male mice in the study was even, 49.39% Femail vs 50.61% Male.
 ## Assignment:
 	- Check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
 	- Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.

@@ -1,7 +1,11 @@
 #  This Repository is for 05-Matplotlib Homework
 
 ## The Power of Plots
-
+	- Please see jupyter(from HW-given starter) notebook solution "pymaceuticals.ipynb"
+	- Also full scrip (tested from Spyder) avail, "matplotlib-challenge.py"
+## Findings
+	- Capomulin drug had a positive impact in decreasing the size of tumors (mouse m601)
+	- Positive relationship between tumor size and weight.  As weight increased, tumor volume followed (see: scatter plot Weight vs Avg Tumor Vol)
 ## Your tasks are to do the following:
 	- Before beginning the analysis, check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
 	- Use the cleaned data for the remaining steps.
